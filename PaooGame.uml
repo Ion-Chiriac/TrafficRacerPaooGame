@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>PaooGame</OriginalElement>
+  <nodes>
+    <node x="2819.0897357372924" y="-32.05555555555556">PaooGame.KeyManager</node>
+    <node x="1319.3795577409717" y="1491.0">PaooGame.ImageLoader</node>
+    <node x="864.0279301817372" y="3771.0">PaooGame.Game</node>
+    <node x="1762.744141074305" y="391.0">PaooGame.RefLinks</node>
+    <node x="2157.2024744076384" y="1951.0">PaooGame.Car</node>
+    <node x="2278.514912583394" y="2923.5">PaooGame.FactoryCars</node>
+    <node x="1749.9108077409717" y="2399.5">PaooGame.Road</node>
+    <node x="1369.8716801817372" y="3307.0">PaooGame.GameWindow</node>
+    <node x="2005.9108077409717" y="2508.0">PaooGame.Enemy</node>
+    <node x="914.0279301817372" y="3391.5">PaooGame.AboutState</node>
+    <node x="1840.3404301817372" y="3271.0">PaooGame.PlayState</node>
+    <node x="873.2649744076383" y="2886.5">PaooGame.UIImageButton</node>
+    <node x="2594.190430181737" y="2399.0">PaooGame.Player</node>
+    <node x="2253.190430181737" y="1298.0">PaooGame.Character</node>
+    <node x="2185.940430181737" y="782.0">PaooGame.Item</node>
+    <node x="0.0" y="0.0">PaooGame.MouseManager</node>
+    <node x="634.2649744076383" y="2802.0">PaooGame.State</node>
+    <node x="1500.6503292500604" y="1820.0">PaooGame.Assets</node>
+    <node x="560.0904301817374" y="3391.5">PaooGame.MenuState</node>
+    <node x="150.76497440763842" y="2423.0">PaooGame.UIManager</node>
+    <node x="1623.3795577409717" y="1442.0">PaooGame.SpriteSheet</node>
+    <node x="925.0279301817372" y="4480.0">PaooGame.Main</node>
+    <node x="487.7649744076383" y="1903.5">PaooGame.UIObject</node>
+    <node x="308.64199591672696" y="3391.5">PaooGame.SettingsState</node>
+    <node x="1855.244141074305" y="84.0">PaooGame.Level</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PaooGame.Game" target="PaooGame.RefLinks">
+      <point x="14.28571428571422" y="-329.5" />
+      <point x="1028.3136444674515" y="3661.0" />
+      <point x="1288.8483077409717" y="3661.0" />
+      <point x="1288.8483077409717" y="762.0" />
+      <point x="1884.1727125028765" y="762.0" />
+      <point x="-28.57142857142844" y="125.5" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.UIImageButton">
+      <point x="-90.96428571428578" y="-185.0" />
+      <point x="1890.8761444674515" y="3161.0" />
+      <point x="1201.3899744076384" y="3161.0" />
+      <point x="140.625" y="65.0" />
+    </edge>
+    <edge source="PaooGame.Enemy" target="PaooGame.Character">
+      <point x="20.583333333333485" y="-52.5" />
+      <point x="2149.994141074305" y="2379.0" />
+      <point x="2119.8274744076384" y="2379.0" />
+      <point x="2119.8274744076384" y="1770.0" />
+      <point x="2293.190430181737" y="1770.0" />
+      <point x="-120.0" y="221.0" />
+    </edge>
+    <edge source="PaooGame.Enemy" target="PaooGame.Item">
+      <point x="-20.583333333333485" y="-52.5" />
+      <point x="2108.827474407638" y="2379.0" />
+      <point x="2100.3372023809525" y="2379.0" />
+      <point x="2100.3372023809525" y="1268.0" />
+      <point x="2214.3404301817372" y="1268.0" />
+      <point x="-113.59999999999991" y="233.0" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.AboutState">
+      <point x="0.0" y="-329.5" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="PaooGame.FactoryCars" target="PaooGame.RefLinks">
+      <point x="42.0" y="-28.0" />
+      <point x="2488.514912583394" y="2772.0" />
+      <point x="2583.690430181737" y="2772.0" />
+      <point x="2583.690430181737" y="702.0" />
+      <point x="1998.4584267885907" y="702.0" />
+      <point x="85.71428571428578" y="125.5" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.Player">
+      <point x="111.17857142857156" y="-185.0" />
+      <point x="2093.019001610309" y="3241.0" />
+      <point x="2761.690430181737" y="3241.0" />
+      <point x="2761.690430181737" y="2782.0" />
+      <point x="2796.690430181737" y="2782.0" />
+      <point x="81.0" y="161.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.GameWindow">
+      <point x="28.571428571428555" y="-329.5" />
+      <point x="1042.5993587531657" y="3671.0" />
+      <point x="1432.8716801817372" y="3671.0" />
+      <point x="-63.0" y="149.0" />
+    </edge>
+    <edge source="PaooGame.MenuState" target="PaooGame.State">
+      <point x="16.33333333333337" y="-64.5" />
+      <point x="674.4237635150707" y="3231.0" />
+      <point x="688.7649744076383" y="3231.0" />
+      <point x="-54.5" y="149.5" />
+    </edge>
+    <edge source="PaooGame.Assets" target="PaooGame.ImageLoader">
+      <point x="-99.0" y="-244.5" />
+      <point x="1550.1503292500604" y="1800.0" />
+      <point x="1461.3795577409717" y="1800.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.Road">
+      <point x="-30.32142857142844" y="-185.0" />
+      <point x="1951.5190016103088" y="3131.0" />
+      <point x="1868.1815792500604" y="3131.0" />
+      <point x="1868.1815792500604" y="2782.0" />
+      <point x="1808.9108077409717" y="2782.0" />
+      <point x="-59.0" y="161.0" />
+    </edge>
+    <edge source="PaooGame.Player" target="PaooGame.Assets">
+      <point x="-106.3125" y="-161.5" />
+      <point x="2609.377930181737" y="2359.0" />
+      <point x="1779.0878292500604" y="2359.0" />
+      <point x="129.9375" y="244.5" />
+    </edge>
+    <edge source="PaooGame.MenuState" target="PaooGame.UIManager">
+      <point x="-81.66666666666663" y="-64.5" />
+      <point x="576.4237635150707" y="3211.0" />
+      <point x="466.2649744076383" y="3211.0" />
+      <point x="466.2649744076383" y="2782.0" />
+      <point x="279.3899744076384" y="2782.0" />
+      <point x="-18.375" y="137.5" />
+    </edge>
+    <edge source="PaooGame.FactoryCars" target="PaooGame.Car">
+      <point x="-42.0" y="-28.0" />
+      <point x="2404.514912583394" y="2772.0" />
+      <point x="2269.2024744076384" y="2772.0" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="PaooGame.Main" target="PaooGame.Game">
+      <point x="44.5" y="-28.0" />
+      <point x="1058.5279301817372" y="4455.0" />
+      <point x="1089.0279301817372" y="4455.0" />
+      <point x="75.0" y="329.5" />
+    </edge>
+    <edge source="PaooGame.Road" target="PaooGame.RefLinks">
+      <point x="0.0" y="-161.0" />
+      <point x="1867.9108077409717" y="2379.0" />
+      <point x="1901.744141074305" y="2379.0" />
+      <point x="1901.744141074305" y="762.0" />
+      <point x="1898.4584267885907" y="762.0" />
+      <point x="-14.28571428571422" y="125.5" />
+    </edge>
+    <edge source="PaooGame.SettingsState" target="PaooGame.Assets">
+      <point x="0.0" y="-64.5" />
+      <point x="415.64199591672696" y="3211.0" />
+      <point x="455.2649744076383" y="3211.0" />
+      <point x="455.2649744076383" y="2359.0" />
+      <point x="1519.2128292500604" y="2359.0" />
+      <point x="-129.9375" y="244.5" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.MouseManager">
+      <point x="-112.5" y="-125.5" />
+      <point x="1800.244141074305" y="351.0" />
+      <point x="264.6428571428571" y="351.0" />
+      <point x="122.14285714285717" y="160.5" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.RefLinks">
+      <point x="131.39285714285734" y="-185.0" />
+      <point x="2113.2332873245946" y="3251.0" />
+      <point x="2908.461325339315" y="3251.0" />
+      <point x="2908.461325339315" y="682.0" />
+      <point x="2027.0298553600192" y="682.0" />
+      <point x="114.28571428571422" y="125.5" />
+    </edge>
+    <edge source="PaooGame.AboutState" target="PaooGame.UIImageButton">
+      <point x="16.666666666666742" y="-64.5" />
+      <point x="1030.694596848404" y="3231.0" />
+      <point x="1107.6399744076384" y="3231.0" />
+      <point x="46.875" y="65.0" />
+    </edge>
+    <edge source="PaooGame.Car" target="PaooGame.RefLinks">
+      <point x="-84.0" y="-113.5" />
+      <point x="2185.2024744076384" y="1760.0" />
+      <point x="2175.440430181737" y="1760.0" />
+      <point x="2175.440430181737" y="742.0" />
+      <point x="1941.3155696457334" y="742.0" />
+      <point x="28.57142857142844" y="125.5" />
+    </edge>
+    <edge source="PaooGame.State" target="PaooGame.RefLinks">
+      <point x="81.75" y="-149.5" />
+      <point x="825.0149744076383" y="2782.0" />
+      <point x="844.4661188750899" y="2782.0" />
+      <point x="844.4661188750899" y="742.0" />
+      <point x="1855.6012839314478" y="742.0" />
+      <point x="-57.14285714285711" y="125.5" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.Enemy">
+      <point x="30.32142857142844" y="-185.0" />
+      <point x="2012.1618587531657" y="3201.0" />
+      <point x="2114.9140355417567" y="3201.0" />
+      <point x="2114.9140355417567" y="2782.0" />
+      <point x="2129.410807740972" y="2782.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="PaooGame.Enemy" target="PaooGame.Car">
+      <point x="61.75" y="-52.5" />
+      <point x="2191.160807740972" y="2379.0" />
+      <point x="2179.6024744076385" y="2379.0" />
+      <point x="-89.59999999999991" y="113.5" />
+    </edge>
+    <edge source="PaooGame.Car" target="PaooGame.Item">
+      <point x="-28.0" y="-113.5" />
+      <point x="2241.2024744076384" y="1760.0" />
+      <point x="2210.2122023809525" y="1760.0" />
+      <point x="2210.2122023809525" y="1278.0" />
+      <point x="2271.140430181737" y="1278.0" />
+      <point x="-56.80000000000018" y="233.0" />
+    </edge>
+    <edge source="PaooGame.FactoryCars" target="PaooGame.Player">
+      <point x="126.0" y="-28.0" />
+      <point x="2572.514912583394" y="2782.0" />
+      <point x="2634.690430181737" y="2782.0" />
+      <point x="-81.0" y="161.5" />
+    </edge>
+    <edge source="PaooGame.SettingsState" target="PaooGame.State">
+      <point x="30.571428571428555" y="-64.5" />
+      <point x="446.2134244881555" y="3221.0" />
+      <point x="645.1649744076383" y="3221.0" />
+      <point x="-98.10000000000002" y="149.5" />
+    </edge>
+    <edge source="PaooGame.AboutState" target="PaooGame.Assets">
+      <point x="83.33333333333326" y="-64.5" />
+      <point x="1097.3612635150705" y="3251.0" />
+      <point x="1269.7649744076384" y="3251.0" />
+      <point x="1269.7649744076384" y="2379.0" />
+      <point x="1593.4628292500604" y="2379.0" />
+      <point x="-55.6875" y="244.5" />
+    </edge>
+    <edge source="PaooGame.Item" target="PaooGame.RefLinks">
+      <point x="71.0" y="-233.0" />
+      <point x="2398.940430181737" y="722.0" />
+      <point x="1969.8869982171623" y="722.0" />
+      <point x="57.14285714285734" y="125.5" />
+    </edge>
+    <edge source="PaooGame.MenuState" target="PaooGame.Assets">
+      <point x="-16.33333333333337" y="-64.5" />
+      <point x="641.757096848404" y="3191.0" />
+      <point x="593.3503292500603" y="3191.0" />
+      <point x="593.3503292500603" y="2369.0" />
+      <point x="1556.3378292500604" y="2369.0" />
+      <point x="-92.8125" y="244.5" />
+    </edge>
+    <edge source="PaooGame.UIImageButton" target="PaooGame.UIObject">
+      <point x="-93.75" y="-65.0" />
+      <point x="967.0149744076383" y="2782.0" />
+      <point x="1084.0904301817372" y="2782.0" />
+      <point x="1084.0904301817372" y="2349.0" />
+      <point x="671.5149744076383" y="2349.0" />
+      <point x="36.75" y="161.0" />
+    </edge>
+    <edge source="PaooGame.Enemy" target="PaooGame.RefLinks">
+      <point x="-61.75" y="-52.5" />
+      <point x="2067.660807740972" y="2379.0" />
+      <point x="2064.348245916727" y="2379.0" />
+      <point x="2064.348245916727" y="752.0" />
+      <point x="1927.0298553600192" y="752.0" />
+      <point x="14.28571428571422" y="125.5" />
+    </edge>
+    <edge source="PaooGame.Assets" target="PaooGame.SpriteSheet">
+      <point x="99.0" y="-244.5" />
+      <point x="1748.1503292500604" y="1800.0" />
+      <point x="1807.8795577409717" y="1800.0" />
+      <point x="61.5" y="77.0" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.FactoryCars">
+      <point x="50.53571428571422" y="-185.0" />
+      <point x="2032.3761444674515" y="3211.0" />
+      <point x="2362.514912583394" y="3211.0" />
+      <point x="-84.0" y="28.0" />
+    </edge>
+    <edge source="PaooGame.MenuState" target="PaooGame.RefLinks">
+      <point x="-49.0" y="-64.5" />
+      <point x="609.0904301817374" y="3201.0" />
+      <point x="477.2649744076383" y="3201.0" />
+      <point x="477.2649744076383" y="722.0" />
+      <point x="1827.0298553600192" y="722.0" />
+      <point x="-85.71428571428578" y="125.5" />
+    </edge>
+    <edge source="PaooGame.Player" target="PaooGame.Item">
+      <point x="15.1875" y="-161.5" />
+      <point x="2730.877930181737" y="1268.0" />
+      <point x="2441.540430181737" y="1268.0" />
+      <point x="113.59999999999991" y="233.0" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.SettingsState">
+      <point x="-57.14285714285711" y="-329.5" />
+      <point x="956.8850730388801" y="3691.0" />
+      <point x="415.64199591672696" y="3691.0" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.MenuState">
+      <point x="-42.85714285714289" y="-329.5" />
+      <point x="971.1707873245944" y="3681.0" />
+      <point x="658.0904301817374" y="3681.0" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="PaooGame.UIManager" target="PaooGame.RefLinks">
+      <point x="0.0" y="-137.5" />
+      <point x="297.7649744076384" y="2379.0" />
+      <point x="273.64199591672696" y="2379.0" />
+      <point x="273.64199591672696" y="702.0" />
+      <point x="1798.4584267885907" y="702.0" />
+      <point x="-114.28571428571422" y="125.5" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.KeyManager">
+      <point x="112.5" y="-125.5" />
+      <point x="2025.244141074305" y="371.0" />
+      <point x="2851.534180181737" y="371.0" />
+      <point x="-90.0" y="137.0" />
+    </edge>
+    <edge source="PaooGame.SettingsState" target="PaooGame.UIManager">
+      <point x="-30.57142857142844" y="-64.5" />
+      <point x="385.0705673452985" y="3231.0" />
+      <point x="244.99019438693426" y="3231.0" />
+      <point x="244.99019438693426" y="2782.0" />
+      <point x="242.63997440763842" y="2782.0" />
+      <point x="-55.125" y="137.5" />
+    </edge>
+    <edge source="PaooGame.MenuState" target="PaooGame.UIImageButton">
+      <point x="81.66666666666663" y="-64.5" />
+      <point x="739.757096848404" y="3251.0" />
+      <point x="1013.8899744076383" y="3251.0" />
+      <point x="-46.875" y="65.0" />
+    </edge>
+    <edge source="PaooGame.Player" target="PaooGame.RefLinks">
+      <point x="45.5625" y="-161.5" />
+      <point x="2761.252930181737" y="2379.0" />
+      <point x="2741.877930181737" y="2379.0" />
+      <point x="2741.877930181737" y="692.0" />
+      <point x="2012.744141074305" y="692.0" />
+      <point x="100.0" y="125.5" />
+    </edge>
+    <edge source="PaooGame.Player" target="PaooGame.Level">
+      <point x="106.3125" y="-161.5" />
+      <point x="2822.002930181737" y="2369.0" />
+      <point x="2788.627930181737" y="2369.0" />
+      <point x="2788.627930181737" y="351.0" />
+      <point x="2026.244141074305" y="351.0" />
+      <point x="76.0" y="76.5" />
+    </edge>
+    <edge source="PaooGame.AboutState" target="PaooGame.UIManager">
+      <point x="-16.666666666666742" y="-64.5" />
+      <point x="997.3612635150705" y="3191.0" />
+      <point x="862.7649744076383" y="3191.0" />
+      <point x="862.7649744076383" y="2752.0" />
+      <point x="389.6399744076384" y="2752.0" />
+      <point x="91.875" y="137.5" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.State">
+      <point x="-131.3928571428571" y="-185.0" />
+      <point x="1850.44757303888" y="3181.0" />
+      <point x="819.5649744076383" y="3181.0" />
+      <point x="76.29999999999995" y="149.5" />
+    </edge>
+    <edge source="PaooGame.SettingsState" target="PaooGame.Level">
+      <point x="-91.71428571428578" y="-64.5" />
+      <point x="323.9277102024412" y="3251.0" />
+      <point x="118.26497440763842" y="3251.0" />
+      <point x="118.26497440763842" y="361.0" />
+      <point x="1874.244141074305" y="361.0" />
+      <point x="-76.0" y="76.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.KeyManager">
+      <point x="114.28571428571433" y="-329.5" />
+      <point x="1128.3136444674515" y="3731.0" />
+      <point x="2941.461325339315" y="3731.0" />
+      <point x="2941.461325339315" y="371.0" />
+      <point x="2911.534180181737" y="371.0" />
+      <point x="-30.0" y="137.0" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.Assets">
+      <point x="57.14285714285711" y="-329.5" />
+      <point x="1071.1707873245944" y="3691.0" />
+      <point x="1645.7128292500604" y="3691.0" />
+      <point x="1645.7128292500604" y="2379.0" />
+      <point x="1630.5878292500604" y="2379.0" />
+      <point x="-18.5625" y="244.5" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.Assets">
+      <point x="-50.53571428571422" y="-185.0" />
+      <point x="1931.304715896023" y="3141.0" />
+      <point x="1680.7545577409717" y="3141.0" />
+      <point x="1680.7545577409717" y="2379.0" />
+      <point x="1667.7128292500604" y="2379.0" />
+      <point x="18.5625" y="244.5" />
+    </edge>
+    <edge source="PaooGame.Character" target="PaooGame.Item">
+      <point x="0.0" y="-221.0" />
+      <point x="2413.190430181737" y="1278.0" />
+      <point x="2384.7404301817373" y="1278.0" />
+      <point x="56.80000000000018" y="233.0" />
+    </edge>
+    <edge source="PaooGame.Player" target="PaooGame.Car">
+      <point x="-75.9375" y="-161.5" />
+      <point x="2639.752930181737" y="2349.0" />
+      <point x="2314.0024744076386" y="2349.0" />
+      <point x="44.80000000000018" y="113.5" />
+    </edge>
+    <edge source="PaooGame.AboutState" target="PaooGame.State">
+      <point x="-83.33333333333326" y="-64.5" />
+      <point x="930.694596848404" y="3211.0" />
+      <point x="775.9649744076384" y="3211.0" />
+      <point x="32.700000000000045" y="149.5" />
+    </edge>
+    <edge source="PaooGame.AboutState" target="PaooGame.RefLinks">
+      <point x="50.0" y="-64.5" />
+      <point x="1064.0279301817372" y="3241.0" />
+      <point x="1258.7649744076384" y="3241.0" />
+      <point x="1258.7649744076384" y="752.0" />
+      <point x="1869.886998217162" y="752.0" />
+      <point x="-42.85714285714289" y="125.5" />
+    </edge>
+    <edge source="PaooGame.UIManager" target="PaooGame.UIObject">
+      <point x="126.0" y="-137.5" />
+      <point x="423.7649744076384" y="2349.0" />
+      <point x="598.0149744076383" y="2349.0" />
+      <point x="-36.75" y="161.0" />
+    </edge>
+    <edge source="PaooGame.Enemy" target="PaooGame.Assets">
+      <point x="-102.91666666666652" y="-52.5" />
+      <point x="2026.4941410743052" y="2369.0" />
+      <point x="1741.9628292500604" y="2369.0" />
+      <point x="92.8125" y="244.5" />
+    </edge>
+    <edge source="PaooGame.FactoryCars" target="PaooGame.Enemy">
+      <point x="-126.0" y="-28.0" />
+      <point x="2320.514912583394" y="2782.0" />
+      <point x="2211.744141074305" y="2782.0" />
+      <point x="82.33333333333348" y="52.5" />
+    </edge>
+    <edge source="PaooGame.SettingsState" target="PaooGame.RefLinks">
+      <point x="-61.14285714285711" y="-64.5" />
+      <point x="354.49913877386984" y="3241.0" />
+      <point x="140.26497440763842" y="3241.0" />
+      <point x="140.26497440763842" y="692.0" />
+      <point x="1784.1727125028763" y="692.0" />
+      <point x="-128.57142857142867" y="125.5" />
+    </edge>
+    <edge source="PaooGame.Road" target="PaooGame.Assets">
+      <point x="-78.66666666666674" y="-161.0" />
+      <point x="1789.244141074305" y="2379.0" />
+      <point x="1704.8378292500604" y="2379.0" />
+      <point x="55.6875" y="244.5" />
+    </edge>
+    <edge source="PaooGame.Character" target="PaooGame.RefLinks">
+      <point x="106.6666666666664" y="-221.0" />
+      <point x="2519.8570968484037" y="1278.0" />
+      <point x="2512.3404301817372" y="1278.0" />
+      <point x="2512.3404301817372" y="712.0" />
+      <point x="1984.1727125028765" y="712.0" />
+      <point x="71.42857142857156" y="125.5" />
+    </edge>
+    <edge source="PaooGame.UIManager" target="PaooGame.MouseManager">
+      <point x="-42.0" y="-137.5" />
+      <point x="255.76497440763842" y="2369.0" />
+      <point x="207.84043018173725" y="2369.0" />
+      <point x="207.84043018173725" y="351.0" />
+      <point x="223.92857142857156" y="351.0" />
+      <point x="81.42857142857156" y="160.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.PlayState">
+      <point x="71.42857142857144" y="-329.5" />
+      <point x="1085.4565016103088" y="3701.0" />
+      <point x="1981.8404301817372" y="3701.0" />
+      <point x="0.0" y="185.0" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.State">
+      <point x="-14.285714285714334" y="-329.5" />
+      <point x="999.7422158960229" y="3661.0" />
+      <point x="799.8884086726487" y="3661.0" />
+      <point x="799.8884086726487" y="3221.0" />
+      <point x="754.1649744076384" y="3221.0" />
+      <point x="10.900000000000091" y="149.5" />
+    </edge>
+    <edge source="PaooGame.Car" target="PaooGame.Character">
+      <point x="84.0" y="-113.5" />
+      <point x="2353.2024744076384" y="1790.0" />
+      <point x="2453.190430181737" y="1790.0" />
+      <point x="40.0" y="221.0" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.MouseManager">
+      <point x="-142.8571428571429" y="-329.5" />
+      <point x="871.1707873245944" y="3751.0" />
+      <point x="28.21428571428578" y="3751.0" />
+      <point x="28.21428571428578" y="371.0" />
+      <point x="20.35714285714289" y="371.0" />
+      <point x="-122.14285714285711" y="160.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.UIManager">
+      <point x="-71.42857142857144" y="-329.5" />
+      <point x="942.5993587531658" y="3701.0" />
+      <point x="196.59043018173725" y="3701.0" />
+      <point x="196.59043018173725" y="2782.0" />
+      <point x="205.88997440763842" y="2782.0" />
+      <point x="-91.875" y="137.5" />
+    </edge>
+    <edge source="PaooGame.SettingsState" target="PaooGame.UIImageButton">
+      <point x="91.71428571428567" y="-64.5" />
+      <point x="507.3562816310126" y="3241.0" />
+      <point x="920.1399744076383" y="3241.0" />
+      <point x="-140.625" y="65.0" />
+    </edge>
+    <edge source="PaooGame.MouseManager" target="PaooGame.UIManager">
+      <point x="40.71428571428578" y="160.5" />
+      <point x="183.21428571428578" y="341.0" />
+      <point x="196.84043018173725" y="341.0" />
+      <point x="196.84043018173725" y="2379.0" />
+      <point x="213.76497440763842" y="2379.0" />
+      <point x="-84.0" y="-137.5" />
+    </edge>
+    <edge source="PaooGame.PlayState" target="PaooGame.UIManager">
+      <point x="-70.75" y="-185.0" />
+      <point x="1911.0904301817372" y="3151.0" />
+      <point x="1669.7545577409717" y="3151.0" />
+      <point x="1669.7545577409717" y="2742.0" />
+      <point x="426.3899744076384" y="2742.0" />
+      <point x="128.625" y="137.5" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.Level">
+      <point x="37.5" y="-125.5" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="PaooGame.State" target="PaooGame.UIManager">
+      <point x="-81.75" y="-149.5" />
+      <point x="661.5149744076383" y="2772.0" />
+      <point x="316.1399744076384" y="2772.0" />
+      <point x="18.375" y="137.5" />
+    </edge>
+    <edge source="PaooGame.Player" target="PaooGame.Character">
+      <point x="-15.1875" y="-161.5" />
+      <point x="2700.502930181737" y="2329.0" />
+      <point x="2457.764912583394" y="2329.0" />
+      <point x="2457.764912583394" y="1800.0" />
+      <point x="2533.190430181737" y="1800.0" />
+      <point x="119.99999999999989" y="221.0" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.Game">
+      <point x="128.57142857142844" y="125.5" />
+      <point x="2041.3155696457334" y="672.0" />
+      <point x="2919.461325339315" y="672.0" />
+      <point x="2919.461325339315" y="3711.0" />
+      <point x="1099.742215896023" y="3711.0" />
+      <point x="85.71428571428567" y="-329.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="1070.749999999999" y="792.9999999999995" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
